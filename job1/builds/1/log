@@ -1,0 +1,24 @@
+Started by user [8mha:////4MQxDOXITqNyKDU7l4cQOFoPoqgnJunXQaXSzjtAP8P8AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9osT0jNK8xJIMABsjJnzEAAAA[0mraghunathr
+Building in workspace /home/interview/.jenkins/workspace/job1
+Cloning the remote Git repository
+Cloning repository https://github.com/raghudevops21/sample.git
+ > git init /home/interview/.jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/raghudevops21/sample.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/raghudevops21/sample.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/raghudevops21/sample.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/raghudevops21/sample.git # timeout=10
+Fetching upstream changes from https://github.com/raghudevops21/sample.git
+ > git fetch --tags --progress https://github.com/raghudevops21/sample.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision baa5bc3407f0b7f8c683baf23355c0aa85593055 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f baa5bc3407f0b7f8c683baf23355c0aa85593055
+Commit message: "sample comm"
+First time build. Skipping changelog.
+[job1] $ /bin/sh -xe /home/interview/Downloads/apache-tomcat-8.0.15/temp/jenkins1082080327722043961.sh
++ sh file.sh
+Hi Raghunath, this is your first jenkins job at Techchefs
+Finished: SUCCESS
